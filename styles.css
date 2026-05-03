@@ -138,8 +138,9 @@ button:active {
 .btn__menu {
   background-color: transparent;
   font-size: 40px;
+  text-align: center;
   border: none;
-  color: #d64287;
+  color: #6442d6;
   display: none;
 }
 
@@ -162,7 +163,7 @@ button:active {
 
 .menu--open {
   max-height: 100vh;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .menu--open .menu__backdrop {
